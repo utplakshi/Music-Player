@@ -1,0 +1,163 @@
+@wv-orange:             #ff6b00;
+@wv-orange-80:          #ff8833;
+@wv-orange-60:          #ffa666;
+@wv-orange-40:          #ffc399;
+@wv-orange-20:          #ffe1cc;
+@wv-black:              #000000;
+@wv-charcoal:           #333333;
+@wv-dark-grey:          #666666;
+@wv-grey:               #999999;
+@wv-light-grey:         #cccccc;
+@wv-white:              #ffffff;
+@wv-field-grey:         #cac4bb;
+
+@wv-blue:               #00acca;
+@wv-teal:               #006661;
+@wv-green:              #46bb95;
+@wv-dark-green:         #2E7C5E;
+@wv-yellow:             #fdd25f;
+@wv-purple:             #9054a1;
+@wv-maroon:             #842e14;
+
+@gradient-blue-light:      #2ad2f2;
+@gradient-blue-dark:       #2281b6;
+@gradient-orange-light:    #f09819;
+@gradient-orange-dark:     @brand-primary;
+@gradient-blue-lighter:    tint(@wv-blue, 85%);
+
+@wv-lighter-blue: tint(@wv-blue, 85%);
+@wv-lightest-blue: tint(@wv-blue, 93%);
+
+@wv-medium-grey:         #7d7d7d;
+@wv-lightest-grey:       #f5f5f5;
+
+@wv-web-red:             #e54f5e;
+@wv-web-yellow:          @wv-yellow;
+@wv-web-green:           @wv-green;
+@wv-web-blue:            @wv-blue;
+
+@gray-darker:            @wv-charcoal;
+@gray-dark:              @wv-dark-grey;
+@gray:                   @wv-medium-grey;
+@gray-light:             @wv-grey;
+@gray-lighter:           @wv-light-grey;
+
+@brand-primary:         @wv-orange;
+@brand-success:         @wv-web-green;
+@brand-info:            @wv-web-blue;
+@brand-warning:         @wv-web-yellow;
+@brand-danger:          @wv-web-red;
+
+@font-size-root:    16px;
+@font-size-base:    @font-size-root;
+
+@font-size-nano:    11px;
+@line-height-nano:  (16 / 11);
+
+@font-size-micro:   12px;
+@line-height-micro: (16 / 12);
+
+@font-size-milli:   13px;
+@line-height-milli: (16 / 13);
+
+@font-size-centi:   14px;
+@line-height-centi: (16 / 14);
+
+@font-size-deci:    16px;
+@line-height-deci:  (20 / 16);
+
+@font-size-zeta:    20px;
+@line-height-zeta:  (28 / 20);
+
+@font-size-epsilon:   22px;
+@line-height-epsilon: (32 / 22);
+
+@font-size-delta:   24px;
+@line-height-delta: (32 / 24);
+
+@font-size-gamma:   26px;
+@line-height-gamma: (36 / 26);
+
+@font-size-beta:    30px;
+@line-height-beta:  (40 / 30);
+
+@font-size-alpha:   34px;
+@line-height-alpha: (44 / 34);
+
+@font-size-kilo:    40px;
+@line-height-kilo:  (52 / 40);
+
+@font-size-mega:    50px;
+@line-height-mega:  (64 / 50);
+
+@font-size-giga:    70px;
+@line-height-giga:  (88 / 70);
+
+@font-weight-light:     300;
+@font-weight-normal:    400;
+@font-weight-medium:    500;
+@font-weight-bold:      700;
+@font-weight-extrabold: 900;
+
+@font-family-sans-serif: Lato, Helvetica, Arial, sans-serif;
+@font-family-serif: Lora, Georgia, "Times New Roman", Times, serif;
+@font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base: @font-family-sans-serif;
+
+@line-height-base:         1.556;
+@line-height-tight:        1.333;
+@line-height-loose:        1.778;
+
+@line-height-computed:    24px;
+
+@spacer-xxs:       4px;
+@spacer-xs:        8px;
+@spacer-tight:     12px;
+@spacer-base:      16px;
+@spacer-loose:     20px;
+@spacer-xl: @line-height-computed;
+
+@padding-base-vertical:     6px;
+@padding-base-horizontal:   16px;
+
+@padding-medium-vertical:     13px;
+@padding-medium-horizontal:   23px;
+
+@padding-large-vertical:    15px;
+@padding-large-horizontal:  24px;
+
+@padding-small-vertical:    4px;
+@padding-small-horizontal:  12px;
+
+@padding-xs-vertical:       1px;
+@padding-xs-horizontal:     5px;
+
+@letter-spacing-base: 2px;
+
+@default-easing: cubic-bezier(0.165, 0.84, 0.44, 1);
+@ease-out-cubic: cubic-bezier(0.33, 1, 0.68, 1);
+@ease-out-quartic: cubic-bezier(0.25, 1, 0.5, 1);
+@ease-out-standard: cubic-bezier(0.25, 0, 0.44, 1);
+@hover-duration: 250ms;
+@zoom-duration: 400ms;
+@slide-duration: 600ms;
+@duration-small: 100ms;
+@duration-medium-in: 250ms;
+@duration-medium-out: 200ms;
+@duration-large-in: 300ms;
+@duration-large-out: 250ms;
+
+@border-radius-base:        8px;
+@border-radius-large:       12px;
+@border-radius-small:       3px;
+
+@screen-xs-min: 480px;
+@screen-sm-min: 768px;
+@screen-md-min: 992px;
+@screen-lg-min: 1200px;
+
+@screen-xs-max: 767px;
+@screen-sm-max: 991px;
+@screen-md-max: 1199px;
+
+@box-shadow-base: 0 3px 5px 0 fadeout(@gray-lighter, 50%);
